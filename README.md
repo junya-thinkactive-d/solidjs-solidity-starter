@@ -1,7 +1,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/junya-thinkactive-d/solidjs-solidity-starter?style=flat-square)](https://github.com/junya-thinkactive-d/solidjs-solidity-starter/issues) [![GitHub forks](https://img.shields.io/github/forks/junya-thinkactive-d/solidjs-solidity-starter?style=flat-square)](https://github.com/junya-thinkactive-d/solidjs-solidity-starter/network) [![GitHub stars](https://img.shields.io/github/stars/junya-thinkactive-d/solidjs-solidity-starter?style=flat-square)](https://github.com/junya-thinkactive-d/solidjs-solidity-starter/stargazers) [![GitHub license](https://img.shields.io/github/license/junya-thinkactive-d/solidjs-solidity-starter?style=flat-square)](https://github.com/junya-thinkactive-d/solidjs-solidity-starter) 
 # Solidjs-Solidity-Starter🔥
 ## 👋Summary
-SolidJS/Solidity/tailwindCSS/Truffle/Ganache-sliを使用したモノレポです
+SolidJS/Solidity/tailwindCSS/Truffle/Ganache-cliを使用したモノレポです
 ## 🎉Usage
 ```bash
 $ yarn install
