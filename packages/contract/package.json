@@ -8,7 +8,8 @@
     "ganache": "ganache-cli",
     "generate-types": "typechain --target truffle-v5 '../client/src/libs/truffle/contracts/**/+([a-zA-Z0-9_]).json' --out-dir '../client/src/libs/truffle/types'",
     "compile": "truffle compile && yarn generate-types",
-    "migrate": "truffle migrate"
+    "migrate": "truffle migrate",
+    "migrate-reset": "truffle migrate --reset"
   },
   "dependencies": {},
   "devDependencies": {
@@ -18,6 +19,9 @@
     "@types/mocha": "^9.1.1",
     "@typescript-eslint/eslint-plugin": "^5.30.4",
     "@typescript-eslint/parser": "^5.30.4",
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^3.0.0",
     "eslint": "^8.0.1",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.25.2",
