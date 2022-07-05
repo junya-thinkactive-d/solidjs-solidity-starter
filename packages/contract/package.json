@@ -9,7 +9,8 @@
     "generate-types": "typechain --target truffle-v5 '../client/src/libs/truffle/contracts/**/+([a-zA-Z0-9_]).json' --out-dir '../client/src/libs/truffle/types'",
     "compile": "truffle compile && yarn generate-types",
     "migrate": "truffle migrate",
-    "migrate-reset": "truffle migrate --reset"
+    "migrate-reset": "truffle migrate --reset",
+    "test": "truffle test"
   },
   "dependencies": {},
   "devDependencies": {
